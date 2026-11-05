@@ -2,12 +2,12 @@
     VocalHarmonizer
     by Ethan
     
-    readme:
-	this is only a juce wrapper around the DSP code in HarmonizerDSP.h... custom DSP code is insanely complicated but was used in lieu of signalsmith stretch
-    this would also be the third-ish/second version of the plugin. the first few just could not properly handle formant shifting without causing pops
+    candor:
+	my project is a juce wrapper around the DSP code in HarmonizerDSP.h... the custom DSP code is GENERATED but was used in lieu of signalsmith stretch (in the same type of philosophy as using a package, just more tailored to the needs of the project)
+    this would also be the third-ish/second version of the plugin. the first few just could not properly handle natural-sounding formant shifting without causing pops
     dsp was generated so the rest of the project could be rewritten with efficiency
 
-    in terms of MY coding this is probably the most meat out of the project if you can ignore some boilerplate
+    in terms of MY coding this is probably the most out of the project besides boilerplate
 
 */
 
